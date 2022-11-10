@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Carousel</title>
+
+    <link rel="stylesheet" href="carousel.css">
+</head>
+<body>
+    <h1>My Work Station Slides</h1>
+    <div class="carousel-container" onmouseover="showNavigation()" onmouseout="hideNavigation()">
+        <div class="slide">
+            <img src="https://img.freepik.com/free-photo/flat-lay-workstation-with-copy-space-laptop_23-2148430879.jpg?size=626&ext=jpg&uid=R82368049&ga=GA1.2.315292422.1666221410" alt="" style="width: 100%;">
+        </div>
+
+        <div class="slide" >
+            <img src="https://img.freepik.com/free-photo/3d-rendering-luxury-business-meeting-working-room-executive-office_105762-1997.jpg?size=626&ext=jpg&uid=R82368049&ga=GA1.2.315292422.1666221410" style="width: 100%;">
+        </div>
+
+        <div class="slide">
+            <img src="https://img.freepik.com/free-vector/office-workplace-background_24908-58537.jpg?size=626&ext=jpg&uid=R82368049&ga=GA1.2.315292422.1666221410" alt="" style="width: 100%;">
+        </div>
+        <div class="slide">
+            <img src="https://img.freepik.com/free-photo/no-people-desk-with-multiple-computers-call-center-office-used-by-telemarketing-agents-answer-phone-calls-helpline-empty-space-with-technology-give-assistance-customer-care_482257-40793.jpg?size=626&ext=jpg&uid=R82368049&ga=GA1.2.315292422.1666221410" style="width: 100%;">
+        </div>
+        <div class="slide">
+            <img src="https://img.freepik.com/free-photo/computer-display-with-3d-render-software-architectural-building-complex-architect-modern-office-desktop-screen-desk-showing-urban-planning-architecture-construction-plans_482257-37745.jpg?size=626&ext=jpg&uid=R82368049&ga=GA1.2.315292422.1666221410" style="width: 100%;">
+        </div>
+        <div class="slide">
+            <img src="https://img.freepik.com/free-photo/office-desk-with-computer-screen-desk-chair_23-2148821883.jpg?size=626&ext=jpg&uid=R82368049&ga=GA1.2.315292422.1666221410" style="width: 100%;">
+        </div>
+        <a class="nav prev" onclick="nextSlide(1)">&#10094;</a>
+        <a class="nav next" onclick="nextSlide(-1)">&#10095;</a>
+    </div>
+
+    
+    <script src="carousel.js"></script>
+</body>
+</html>
